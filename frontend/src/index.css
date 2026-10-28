@@ -1,0 +1,33 @@
+:root { font-family: system-ui, sans-serif; color: #1c2430; background: #f5f7fa; }
+body { margin: 0; }
+.page { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { margin: 0 0 4px; font-size: 1.6rem; }
+.sub { color: #5b6675; margin: 0 0 20px; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end;
+  background: #fff; padding: 16px; border-radius: 10px; margin-bottom: 16px; }
+.controls label { display: flex; flex-direction: column; font-size: 0.8rem; color: #5b6675; gap: 4px; }
+.controls input, .controls select { font-size: 1rem; padding: 6px 8px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.card { background: #fff; border-radius: 10px; padding: 14px 16px; }
+.card .label { font-size: 0.8rem; color: #5b6675; }
+.card .value { font-size: 1.6rem; font-weight: 600; margin: 4px 0; }
+.card .hint { font-size: 0.75rem; color: #7a8594; }
+.panel { background: #fff; border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+.panel h2 { margin: 0 0 12px; font-size: 1.05rem; }
+.error { background: #fde8e8; color: #9b1c1c; padding: 12px; border-radius: 8px; margin-bottom: 16px; }
+.muted { color: #7a8594; }
+footer { color: #7a8594; font-size: 0.8rem; margin-top: 24px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 16px; }
+.grid2 .panel { margin-bottom: 0; }
+.stack { display: grid; gap: 16px; margin-bottom: 16px; }
+.panel .note { font-size: 0.8rem; color: #7a8594; margin: 0 0 8px; }
+.callout { background: #fff7ed; border-left: 4px solid #e8710a; padding: 12px 14px;
+  border-radius: 6px; margin-bottom: 12px; }
+.callout .caveat { color: #7a8594; font-size: 0.8rem; margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th, td { text-align: right; padding: 6px 10px; border-bottom: 1px solid #edf0f4; }
+th:first-child, td:first-child { text-align: left; }
+th { cursor: pointer; user-select: none; color: #5b6675; font-weight: 600; }
+.tablewrap { max-height: 360px; overflow: auto; }
+button.btn { font-size: 0.9rem; padding: 7px 12px; border-radius: 6px; border: 1px solid #c5ccd6;
+  background: #fff; cursor: pointer; }
