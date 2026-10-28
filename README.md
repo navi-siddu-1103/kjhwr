@@ -4,7 +4,7 @@ A pilot web app for a UK energy utility's day-ahead power purchasing team. It sh
 wind generation forecast that was actually available when the purchase decision had to be
 made, and quantifies how accurate those forecasts were.
 
-- **Live app:** PASTE_FRONTEND_URL
+- **Live app:** https://kjhwr-flax.vercel.app
 - **Live API docs:** https://backend-kappa-seven-84.vercel.app/docs
 
 ## The problem
