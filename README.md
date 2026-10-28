@@ -142,6 +142,9 @@ Common query parameters: `start`, `end` (delivery dates, 2026-01-01 to 2026-01-3
 
 ## AI tools disclosure
 
-AI tools (Claude by Anthropic) were used to assist in developing this application, including
-planning, code generation, debugging and documentation. I reviewed the code and verified the
-core selection logic against the raw Elexon data by hand.
+AI tools were used to assist in building this application. I used Claude (by Anthropic) as
+a coding assistant in a chat conversation: it helped plan the approach, and drafted the
+backend, frontend, Docker setup, tests and this README. I developed and ran everything in
+Google Cloud Shell, copying the suggested code in, running it, and sharing the outputs and
+errors back to Claude to debug. I reviewed the code and checked the core forecast-selection
+logic against the raw Elexon data by hand (for example, the 12:00 hour on 10 January 2026).
